@@ -22,7 +22,7 @@ you may need to create a job script, but here is an example of how to make it ru
 
 You are now ready to go! Here is a sample script
 
-```python main.py --N 1000 --batch-size 10 --model1 EleutherAI/pythia-2.8b --model2 EleutherAI/pythia-160m --corpus-path monology/pile-uncopyrighted```
+```python main.py --model1 EleutherAI/pythia-2.8b --model2 EleutherAI/pythia-160m --corpus-path monology/pile-uncopyrighted```
 
 For a breakdown of the possible args look below
 
