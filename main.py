@@ -195,7 +195,7 @@ def main(args):
 
 def parse_arguments(argv):
     parser = argparse.ArgumentParser()
-    parser.add_argument('--N', type=int, default=1000, help="Number of samples to generate")
+    parser.add_argument('--N', type=int, default=10000, help="Number of samples to generate")
     parser.add_argument('--batch-size', type=int, default=10, help="Batch size for generation")
     parser.add_argument('--model1', type=str, required=True, help="Hugging Face model name for the first model")
     parser.add_argument('--model2', type=str, required=True, help="Hugging Face model name for the second model")
