@@ -45,7 +45,7 @@ For a breakdown of the possible args look below
 | `--corpus-subset`| `str`   | `None`   | Data subset if using splitted data. |
 | `--name-tag`     | `str`   | `None`   | Name tag used for output file naming. |
 | `--random-seed`  | `int`   | `None`   | Random seed for dataset shuffling. |
-| `--split`        | `str`   | `None`   | Split for dataset (e.g., `train`, `test`). |
+| `--split`        | `str`   | `None`   | Split for dataset (if pulling from hf dataset with splits). |
 | `--is-splitted`  | `flag`  | `False`  | Use if dataset is pre-split. |
 | `--is-wmt`       | `flag`  | `False`  | Use if dataset follows WMT format. |
 | `--is-local`     | `flag`  | `False`  | Use if loading from a local text file. |
